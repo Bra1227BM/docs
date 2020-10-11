@@ -18,7 +18,7 @@ Some administrative ports are required to configure {% data variables.product.pr
 
 | Port | Service | Description |
 |---|---|---|
-| 8443 | HTTPS | Secure web-based {% data variables.enterprise.management_console %}. Required for basic installation and configuration. |
+| 8443 |  | Secure web-based {% data variables.enterprise.management_console %}. Required for basic installation and configuration. |
 | 8080 | HTTP | Plain-text web-based {% data variables.enterprise.management_console %}. Not required unless SSL is disabled manually. |
 | 122 | SSH | Shell access for {% data variables.product.product_location_enterprise %}. Required to be open to incoming connections from all other nodes in a High Availability configuration. The default SSH port (22) is dedicated to Git and SSH application network traffic. |
 | 1194/UDP | VPN | Secure replication network tunnel in High Availability configuration. Required to be open to all other nodes in the configuration.|
